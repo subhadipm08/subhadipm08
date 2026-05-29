@@ -21,7 +21,7 @@
 
 ## About Me
 
-I'm a final-year **Computer Science (AI/ML)** student at Haldia Institute of Technology who builds and **ships** production-ready software. I work across the backend, ML, and deployment stack — from designing real-time WebRTC systems to containerizing and deploying ML models to the cloud.
+I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Technology who builds and **ships** production-ready software. I work across the backend, ML, and deployment stack — from designing real-time WebRTC systems to containerizing and deploying ML models to the cloud.
 
 - 🎓 B.Tech CSE-AIML, Haldia Institute of Technology (2026)
 - 💼 Seeking **SDE / Backend Engineer** and **ML Engineer** roles
@@ -63,7 +63,6 @@ I'm a final-year **Computer Science (AI/ML)** student at Haldia Institute of Tec
 **Cloud**
 
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
@@ -78,7 +77,7 @@ I'm a final-year **Computer Science (AI/ML)** student at Haldia Institute of Tec
 
 ## 🚀 Projects
 
-### 🎥 [meetix](https://github.com/subhadipm08/meetix) &nbsp;·&nbsp; [`Live Demo`](https://meetix-client.vercel.app/)
+### 🎥 [meetix](https://github.com/subhadipm08/meetix) &nbsp;·&nbsp; [`Live Demo`](https://meetixchat.vercel.app/)
 
 > Production-grade real-time P2P video chat and messaging platform.
 
