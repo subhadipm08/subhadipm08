@@ -21,9 +21,9 @@
 
 ## About Me
 
-I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Technology who builds and **ships** production-ready software. I work across the backend, ML, and deployment stack — from designing real-time WebRTC systems to containerizing and deploying ML models to the cloud.
+I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Technology who builds and **ships** production-ready software. I work across the backend, ML, and deployment stack — from designing real-time WebRTC systems to developing end-to-end autonomous driving models and containerizing apps for the cloud.
 
-- 🎓 B.Tech CSE-AIML, Haldia Institute of Technology (2026)
+- 🎓 B.Tech CSE-AIML, Haldia Institute of Technology (2033 - 2027)
 - 💼 Seeking **SDE / Backend Engineer** and **ML Engineer** roles
 - 🚀 Projects deployed on **AWS EC2**, **Vercel**, **Render**, and **Docker Hub**
 - 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/subhadip-mudi-5a53b4298/)
@@ -55,6 +55,7 @@ I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Tech
 
 **ML & Data**
 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
@@ -63,7 +64,6 @@ I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Tech
 **Cloud**
 
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 
@@ -85,7 +85,29 @@ I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Tech
 - Architected a decoupled system: React + Vite frontend on **Vercel**, Node.js + Socket.io backend on **AWS EC2**
 - Ran Dockerized **MongoDB** and **Redis** containers; used **NGINX** as a reverse proxy with **Let's Encrypt SSL** via Certbot
 - Implemented JWT authentication and OTP email verification; set up **CI/CD pipeline** with GitHub Actions
-- **Stack:** JavaScript · Node.js · Express · Socket.io · WebRTC · MongoDB · Redis · Docker · NGINX · AWS EC2 · Vercel
+- **Stack:** JavaScript · Node.js · Express · Socket.io · WebRTC · MongoDB · Redis · Docker · NGINX · AWS EC2
+
+---
+
+### 🚗 [adas-autopilot](https://github.com/subhadipm08/self-driving-car) 
+
+> End-to-end deep learning pipeline predicting vehicle steering angles from camera frames.
+
+- Implemented the **NVIDIA DAVE-2** CNN architecture from scratch using **TensorFlow/Keras** to map raw pixels directly to precise steering commands.
+- Built a robust data pipeline utilizing `tf.data` for high-performance pre-fetching and applied an exponential moving average (EMA) filter for prediction smoothing.
+- Developed an interactive **Flask web dashboard** for real-time simulation, camera streaming, and model evaluation across different loss functions (MSE vs. RMSE).
+- **Stack:** Python · TensorFlow · Keras · Flask · OpenCV
+
+---
+
+### 🛣️ [lane-detection](https://github.com/subhadipm08/lane-detection-proj)
+
+> Real-time semantic segmentation pipeline for road lane detection.
+
+- Architected a **U-Net** topology utilizing a pre-trained **MobileNetV2** backbone and depthwise-separable convolutions, optimizing the model for edge-device deployment.
+- Formulated a custom **Combo Loss** (50% Focal Loss / 50% Dice Loss) to successfully address severe foreground-background pixel imbalance in lane data.
+- Engineered a custom clip-based dataset splitting workflow to prevent data leakage between correlated frames, resulting in a regularized model with a 0.79 validation F1-Score.
+- **Stack:** Python · TensorFlow · Keras · NumPy · OpenCV
 
 ---
 
@@ -93,31 +115,10 @@ I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Tech
 
 > Content-based movie recommender using NLP and cosine similarity — Dockerized and deployed.
 
-- Built NLP pipeline using **TF-IDF vectorization** and **cosine similarity** on movie metadata (genres, cast, keywords, overview)
-- Integrated **TMDB API** to fetch and display live movie posters for recommendations
-- Containerized the full Flask app with **Docker** and published to **Docker Hub**; deployed live on **Render**
-- Precomputed similarity matrix serialized as `.pkl` for fast inference at runtime
-- **Stack:** Python · Flask · scikit-learn · NLTK · Pandas · TMDB API · Docker · Render
-
----
-
-### 🏦 [loan-approval-system](https://github.com/subhadipm08/loan-approval-system)
-
-> End-to-end ML web app for loan approval prediction with tuned models and a Flask UI.
-
-- Trained and compared **Random Forest** (ROC-AUC ~0.997) and **SVM** (ROC-AUC ~0.995) with cross-validation and hyperparameter tuning
-- Performed full EDA — identified CIBIL score as the strongest predictor; engineered Loan-Income Ratio feature
-- Built a **Flask web application** with model selection (RF / SVM) and real-time prediction UI
-- **Stack:** Python · scikit-learn · Pandas · Flask · HTML/CSS
-
----
-
-### 📝 [notes-crud-api](https://github.com/subhadipm08/notes-crud-api)
-
-> Clean RESTful Notes API with MongoDB Atlas integration.
-
-- Designed modular REST architecture with proper error handling, input validation, and timestamp support
-- **Stack:** Node.js · Express.js · MongoDB Atlas · Mongoose
+- Built an NLP pipeline using **TF-IDF vectorization** and **cosine similarity** on movie metadata (genres, cast, keywords, overview).
+- Integrated the **TMDB API** to fetch and display live movie posters alongside dynamic top-5 recommendations.
+- Containerized the full Flask application with **Docker**, published the image to **Docker Hub**, and deployed the live system on **Render**.
+- **Stack:** Python · Flask · scikit-learn · Pandas · TMDB API · Docker · Render
 
 ---
 
