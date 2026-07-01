@@ -23,7 +23,7 @@
 
 I'm a final-year **Computer Science (AIML)** student at Haldia Institute of Technology who builds and **ships** production-ready software. I work across the backend, ML, and deployment stack — from designing real-time WebRTC systems to developing end-to-end autonomous driving models and containerizing apps for the cloud.
 
-- 🎓 B.Tech CSE-AIML, Haldia Institute of Technology (2033 - 2027)
+- 🎓 B.Tech CSE-AIML, Haldia Institute of Technology (2023 - 2027)
 - 💼 Seeking **SDE / Backend Engineer** and **ML Engineer** roles
 - 🚀 Projects deployed on **AWS EC2**, **Vercel**, **Render**, and **Docker Hub**
 - 📫 Reach me: [LinkedIn](https://www.linkedin.com/in/subhadip-mudi-5a53b4298/)
